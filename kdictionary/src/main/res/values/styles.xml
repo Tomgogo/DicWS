@@ -1,0 +1,29 @@
+<resources>
+    <style name="Theme.Mycompattheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <!-- 定义ActionBar左边小箭头的图片 -->
+        <item name="android:homeAsUpIndicator">@drawable/ic_search</item>
+        <!-- 设置ActionBar的高度 -->
+        <item name="android:actionBarSize">60dip</item>
+        <!-- 设置Menu的颜色 -->
+        <item name="android:actionMenuTextColor">#ff0000</item>
+        <!-- 设置Menu的字体样式 -->
+        <item name="android:actionMenuTextAppearance">@style/MyMenuTextStyle</item>
+        <!-- 设置ActionBar Tab字体的样式 -->
+        <item name="android:actionBarTabTextStyle">@style/MyTabTextStyle</item>
+        <!-- 定义Tab之间的分割线的图片 -->
+        <item name="android:actionBarDivider">@drawable/ic_search</item>
+
+    </style>
+    <!-- Menu的样式 -->
+    <style name="MyMenuTextStyle">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Tab字体的颜色、字体等样式 -->
+    <style name="MyTabTextStyle" parent="@style/Widget.AppCompat.Light.ActionBar.TabText">
+        <item name="android:textColor">#0000ff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
+

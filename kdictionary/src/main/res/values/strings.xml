@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kamus Alih Bahasa</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="not_found_prompt">Kata pencarian untuk sementara tidak tersedia , kami akan berusaha untuk memberikan yang sempurna.</string>
+    <string name="search_text">Terjemahan bekerja untuk Anda</string>
+    <string name="upgrade">Upgrade</string>
+</resources>
